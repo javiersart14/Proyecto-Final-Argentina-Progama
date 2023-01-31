@@ -1,0 +1,242 @@
+* {
+    max-width: 1150px;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/*Generales, h, p*/
+h1 {
+    font-size: 2.1rem;
+    padding: 3% 0% 1%;
+    background-color: #5f9ea0;
+    color: #fafafa;
+    font-family: sans-serif;
+    text-align: center;
+}
+h2 {
+    margin: 3% 0;
+    width: fit-content;
+    font-family: sans-serif;
+}
+#subt {
+    background-color: #5f9ea0;
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 1% 0;
+
+}
+h3 {
+    color: #fafafa;
+    font-weight: 500;
+    font-size: 0.9rem;
+    align-self: center;
+    text-align: end;
+}
+h4 {
+    border-top: 2px solid #fafafa;
+    padding: 8% 0;
+    font-family: sans-serif;
+}
+p {
+    line-height: 1.4;
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
+li {
+    list-style: none;
+    line-height: 1.4;
+}
+button {
+    background-color: #5f9ea0ca;
+    padding: 0.7%;
+    margin: 2% 40% 0;
+}
+
+/*Datos pesonales y barra de navegación*/
+#II {
+    display: flex;
+}
+#datospers--{
+    width: 100%;
+    padding: 1% 3%;
+    background-color: #5f9ea0ca;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 3px grey;
+}
+.img__datos {
+    max-height: 20px;
+    padding: 0 4px 0 12px;
+}
+.ul__datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.li__datos {
+    flex-wrap: wrap;
+    display: inline-flex;
+    color: #fafafa;
+    font-size: 0.9rem;
+    padding: 0.5% 0;
+}
+
+.menu__icon {
+    max-width: 20px;
+    padding: 1% 0 1%;
+    display: flex;
+    justify-content: center;
+}
+#x {
+    display: none;
+}
+
+#menu-hambur {
+    width: 15%;
+    display: none;
+    background-color: #5f9ea0ca;
+    padding: 1% 0 1%;
+    justify-content: center;
+}
+
+nav ul {
+    background-color: #5f9ea0;
+    padding: 1% 0 1%;
+    justify-content: center;
+}
+
+#ulnav__ {
+    display: flex;
+}
+
+.li__nav {
+    font-size: 0.85rem;
+    font-family: 'roboto', sans-serif;
+    margin-right: 1.5%;
+    text-transform: uppercase;
+}
+
+#ulnav__resp {
+    display: none;
+}
+.li__nav__resp {
+    font-size: 0.85rem;
+    font-family: 'roboto', sans-serif;
+    margin: 0 2%;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fafafa;
+}
+#button__hamburg {
+    background-color: #5f9ea011;
+}
+@media screen and (max-width: 835px) {
+    
+    #datospers--{
+        width: 85%;
+    }
+    #menu-hambur {
+        width: 15%;
+        display: flex;
+        box-shadow: 0px 0px 3px grey;
+    }
+    #nav--ppal {
+        display: none;
+    }
+}
+    
+/*Seccion general, información, columna izq*/
+#sec-gral {
+    display: flex;
+}
+
+#informacion {
+    width: 20%;
+    padding: 0% 2% 6%;
+    background-color: #5f9ea0;
+    color:#fafafa;
+}
+
+.li__inf {
+    font-size: 0.9rem;
+    margin: 3% 0;
+}
+
+#imglinkedin, #imggithub {
+    min-width: 20px;
+    max-width: 60px;
+    height: auto;
+}
+
+/*Seccion central, perfil y experiencia*/
+#perfil {
+    width: 80%;
+    min-height: 800px;
+    border: 3px solid #5f9ea0;
+    border-top: none;
+}
+#sectionPerf {
+    padding: 0 3%;
+    margin-bottom: 5%;
+}
+
+.li__perf {
+    font-size: 1rem;
+    padding-left: 5%;
+    margin-bottom: 1%;
+}
+#detallesExp__, #detallesEduc__ {
+    display: none;
+}
+
+.infoboton {
+    font-family: 'roboto', sans-serif;
+    color: #fafafa;
+    box-shadow: 1px 1px 3px #595959;
+}
+
+.linea {
+    height: 2px;
+    background-color: rgb(95, 158, 160);
+    width: 60%;
+    margin: 3% auto;
+}
+
+@media screen and (max-width: 750px) {
+    #subt {
+        padding: 1.5% 0;
+    }
+    #sec-gral {
+        display: block;
+        width: 100%;
+    }
+    #informacion {
+        display: flex;
+        max-width: 1150px;
+        width: 100%;
+        justify-content: space-around;
+        padding: 2% 2%;
+        min-height: none;
+        box-shadow: 0px 0px 3px grey;
+    }
+    h4 {
+        border-top: 0;
+        padding: 0 0 10% 0;
+    }
+    
+    #redes__link {
+        display: flex;
+        flex-direction: column;
+    }
+    #perfil {
+        width: 100%;
+        border: none;
+    }
+}

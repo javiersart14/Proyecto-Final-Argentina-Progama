@@ -1,0 +1,2 @@
+Esta es la segunda version del proyecto final del curso Argentina Programa 4.0, en el cual teníamos que desarrollar un 
+CV basandonos en los conocimientos adquiridos de HTML, CSS, Javascript, GIT y Github.
